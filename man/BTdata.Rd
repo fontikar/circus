@@ -17,5 +17,5 @@ A data frame
 }
 }
 \description{
-BTdata
+Blue tit data
 }

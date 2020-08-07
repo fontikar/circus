@@ -1,5 +1,5 @@
 #'@title BTdata
-#'@decription Blue tit data
+#'@description Blue tit data
 #'@format A data frame
 #' \enumerate{
 #' \item tarsus:	species Latin name

@@ -16,3 +16,7 @@ Imports:
     brms,
     stats,
     MCMCglmm
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
