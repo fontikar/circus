@@ -1,0 +1,18 @@
+Package: circus
+Type: Package
+Title: Animals models
+Version: 0.1.0
+Author: Fonti Kar
+Maintainer: Fonti Kar <f.kar@anu.edu.au>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: GPL4
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Imports: 
+    brms,
+    stats,
+    MCMCglmm
