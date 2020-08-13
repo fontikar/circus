@@ -20,7 +20,7 @@ A data frame
 BTdata
 }
 \description{
-This dataset was collected for the study: "Testing the phenotypic gambit: phenotypic, genetic and environmental correlations of colour" by Hadfield et. al (2007). Data was collected in the spring of 2002 on a population of blue tits at Silwood Park, London, UK. This dataset includes seven variables measured from a cohort of blue tit chicks (n = 828). Blue tit chicks were cross-fostered between nests (i.e. chicks from different families were swapped). Variables include: two morphological traits (tarsus and back); sex; hatching date; the ID of the chick; ID of the chick's mother and the ID of the nest that fostered the chick.
+This dataset was collected for the study: "Testing the phenotypic gambit: phenotypic, genetic and environmental correlations of colour" by Hadfield et. al (2007). Data was collected in the spring of 2002 on a population of blue tits at Silwood Park, London, UK. This dataset includes seven variables measured from a cohort of blue tit chicks (n = 828). Blue tit chicks were cross-fostered between nests (i.e. chicks from different families were swapped). This allowed separation of genetic from environmental sources of variation. Variables include: two morphological traits (tarsus and back); sex; hatching date; the ID of the chick; ID of the chick's mother and the ID of the nest that fostered the chick.
 }
 \references{
 Hadfield, J. D., Nutall, A., Osorio, D., & Owens, I. P. F. (2007). Testing the phenotypic gambit: phenotypic, genetic and environmental correlations of colour. Journal of Evolutionary Biology, 20(2), 549-557.
