@@ -24,5 +24,5 @@ Wilson, A. J., Reale, D., Clements, M. N., Morrissey, M. M., Postma, E., Walling
 Morrissey, M. B., Wilson, A. J., Pemberton, J. M., & Ferguson, M. M. (2007). A framework for power and sensitivity analyses for quantitative genetic studies of natural populations, and case studies in Soay sheep (Ovis aries). Journal of Evolutionary Biology, 20(6), 2309-2321.
 }
 \seealso{
-\code{\link{grphyon}}
+\code{\link{gryphon}}
 }
