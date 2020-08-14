@@ -1,6 +1,6 @@
 Package: circus
 Type: Package
-Title: Helper functions to wrangle animal 'brmsfit' models
+Title: Helper functions to wrangle animal models in 'brms'
 Version: 0.1.0
 Author: Fonti Kar
 Maintainer: Fonti Kar <fonti.kar@gmail.com>
