@@ -1,10 +1,17 @@
 Package: circus
 Type: Package
-Title: Helper functions to wrangle animal models in 'brms'
+Title: Helper functions to wrangle animal models from 'brms'
 Version: 0.1.0
-Author: Fonti Kar
-Maintainer: Fonti Kar <fonti.kar@gmail.com>
-Description: circus is a package for wrangling and summarising 'brmsfit' mixed model objects. The package allows quick calculations of intra-class correlations (ICC) coefficients such as heritability from 'animal' models.
+Authors@R: 
+    person(given = "Fonti",
+           family = "Kar",
+           role = c("aut", "cre"),
+           email = "fonti.kar@gmail.com")
+Description: circus is a package for wrangling and summarising 'brmsfit' mixed model objects. 
+                The package allows quick calculations of intra-class correlations (ICC) coefficients
+                such as heritability from quantitative genetics models (animal models). 
+                This package is still under development and currently supports random intercept models only. 
+                See README and vignette('circus') for further information.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
