@@ -16,6 +16,15 @@
 #'@export
 
 get_icc <- function(model, var){
+  if(is.null(model$ranef)){ #Check if model contains random effects
+    stop('Model fit must have random effects')
+  }
+  if(all(model$ranef$coef == "Intercept") == FALSE){ #Check if model has random intercepts only
+    stop('Random slopes not yet supported: get_icc() only computes ICC for random intercepts models only')
+  }
+  if(length(match(model$ranef$group,var)) == 0){
+    stop('var not detected as a random effect parameter in model')
+  }
   #string to identify grouping variable
   var_str <- paste0("sd_", var)
 
