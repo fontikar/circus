@@ -5,18 +5,12 @@
 #'@param var A character string that matches a random effect parameter in the model for which ICC is computed for.
 #'@return A data frame containing the variable (var) which ICC is computed for, the posterior mean (Estimate) of ICC value, the standard deviation of the posterior distribution (Est.Error) and the two-sided 95% credible intervals (based on quantiles).
 #'@examples
-#' #Fit an animal model to estimate heritability of birth weight
-#' fit1 <- brm(
-#' BWT ~  1 + (1|ANIMAL) + (1|MOTHER), data = gryphon,
-#' family = gaussian(), cov = list(ANIMAL = A),
-#' chains = 1, cores = 2, iter = 100)
-#'
 #' #Computes ICC for "ANIMAL", this represents the proportion of variance
-#' explained by additive genetic variation among individuals (i.e. heritability)
+#' #explained by additive genetic variation among individuals (i.e. heritability)
 #' get_icc(model = fit1, var = "ANIMAL")
 #'
-#' Computes ICC for "MOTHER", this is the proportion of variance
-#' explained by maternal identity (i.e maternal effects)
+#' #Computes ICC for "MOTHER", this is the proportion of variance
+#' #explained by maternal identity (i.e maternal effects)
 #' get_icc(model = fit1, var = "MOTHER")
 #'@author Fonti Kar - fonti.kar@gmail.com
 #'@export

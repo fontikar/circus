@@ -18,18 +18,12 @@ A data frame containing the variable (var) which ICC is computed for, the poster
 Computes the intra-class coefficient from a "brmsfit" model object using the entire posterior distribution
 }
 \examples{
-#Fit an animal model to estimate heritability of birth weight
-fit1 <- brm(
-BWT ~  1 + (1|ANIMAL) + (1|MOTHER), data = gryphon,
-family = gaussian(), cov = list(ANIMAL = A),
-chains = 1, cores = 2, iter = 100)
-
 #Computes ICC for "ANIMAL", this represents the proportion of variance
-explained by additive genetic variation among individuals (i.e. heritability)
+#explained by additive genetic variation among individuals (i.e. heritability)
 get_icc(model = fit1, var = "ANIMAL")
 
-Computes ICC for "MOTHER", this is the proportion of variance
-explained by maternal identity (i.e maternal effects)
+#Computes ICC for "MOTHER", this is the proportion of variance
+#explained by maternal identity (i.e maternal effects)
 get_icc(model = fit1, var = "MOTHER")
 }
 \author{
