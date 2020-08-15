@@ -2,7 +2,9 @@
 title: "circus"
 author: "Fonti Kar"
 date: "`r Sys.Date()`"
-output: 
+output:
+  md_document:
+    variant: markdown_github
   rmarkdown::html_vignette:
   toc: yes
 vignette: >
@@ -50,7 +52,7 @@ library(circus)
 
 ## How it works
 
-As a simple example, we will fit an 'animal model' using random regression to model the birth weight  of mythical gryphons using `brms`. We will use the `gryphon` dataset and `gryphonPed` pedigree included in the `circus` package to estimate heritability of birth weight (`BWT`). We will also partition variance due to `MOTHER` identity and `YEAR` as mothers gave birth across different years by fitting these as random intercepts. 
+As a simple example, we will fit an animal model using random regression to model the birth weight  of mythical gryphons using `brms`. We will use the `gryphon` dataset and `gryphonPed` pedigree included in the `circus` package to estimate heritability of birth weight (`BWT`). We will also partition variance due to `MOTHER` identity and `YEAR` as mothers gave birth across different years by fitting these as random intercepts. 
 
 ```{r modelfit, eval = FALSE, warning = FALSE, message = FALSE}
 #Arrange the pedigree into an inverted relatedness matrix
@@ -66,7 +68,7 @@ model <- brms::brm(
   chains = 1, iter = 20)
 ```
 
-**NOTE:** This fit is a very short 'run' and is for demonstrative purposes only. It will result in warnings about convergence etc. 
+**NOTE:** This fit is a very short run and is for demonstrative purposes only. It will result in warnings about convergence etc. 
 
 Heritability ($h^2$) is the proportion of total variance in birthweight attributed to genetic differences among each individual (`ANIMAL`). Total variance is the sum of all variance components:
 
