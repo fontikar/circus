@@ -14,7 +14,12 @@ When quantitative measurements are hierarchically organized at multiple
 levels, intra-class correlations (ICC) can be used to express how
 strongly units of the same group resemble each other (McGraw & Wong
 1996). ICC takes the form:
-$$ICC = \\displaystyle \\frac{\\sigma\_{G}}{(\\sigma\_{G} + \\sigma\_{e})}$$
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AICC+%26%3D+%5Cfrac%7B%5Csigma_G%7D%7B%28%5Csigma_G+%2B+%5Csigma_e%29%7D+%0A%5Cend%7Balign%2A%7D%0A" 
+alt="\begin{align*}
+ICC &= \frac{\sigma_G}{(\sigma_G + \sigma_e)} 
+\end{align*}
+">
 
 where *??*<sub>*G*</sub> is the variance amoung units of a specific group
 and *??*<sub>*e*</sub> is the residual variance. One application of ICC
@@ -45,7 +50,7 @@ be extensively tested. Please reach out if you have any feedback.
 How it works
 ------------
 
-As a simple example, we will fit an ???animal model??? using random
+As a simple example, we will fit an animal model using random
 regression to model the birth weight of mythical gryphons using `brms`.
 We will use the `gryphon` dataset and `gryphonPed` pedigree included in
 the `circus` package to estimate heritability of birth weight (`BWT`).
@@ -67,7 +72,7 @@ model <- brms::brm(
   chains = 1, iter = 20)
 ```
 
-**NOTE:** This fit is a very short ???run??? and is for demonstrative
+**NOTE:** This fit is a very short run and is for demonstrative
 purposes only. It will result in warnings about convergence etc.
 
 Heritability (*h*<sup>2</sup>) is the proportion of total variance in
