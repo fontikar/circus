@@ -35,7 +35,7 @@ alt="\begin{align*}
 \end{align*}
 "> is the residual variance. One application of ICC
 in biological literature is the calculation of heritability in
-quantitive genetics studies from ???animal models??? (Wilson et al.??2010) or
+quantitive genetics studies from animal models (Wilson et. al, 2010) or
 repeatability of behavioural traits in animal personality studies
 (Nakagawa & Schielzeth, 2010)
 
@@ -90,7 +90,12 @@ Heritability (*h*<sup>2</sup>) is the proportion of total variance in
 birthweight attributed to genetic differences among each individual
 (`ANIMAL`). Total variance is the sum of all variance components:
 
-$$h^2= \\displaystyle \\frac{\\sigma\_{ANIMAL}}{(\\sigma\_{ANIMAL} + \\sigma\_{MOTHER} + \\sigma\_{BYEAR} + \\sigma\_{e})}$$
+<img src=
+"https://render.githubusercontent.com/render/math?math=%5Ctextstyle+%5Cbegin%7Balign%2A%7D%0Ah%5E2+%26%3D+%5Cfrac%7B%5Csigma_%7BANIMAL%7D%7D%7B%28%5Csigma_%7BANIMAL%7D+%2B+%5Csigma_%7BMOTHER%7D+%2B+%5Csigma_%7BBYEAR%7D+%2B+%5Csigma_%7Be%7D%29%7D+%0A%5Cend%7Balign%2A%7D%0A" 
+alt="\begin{align*}
+h^2 &= \frac{\sigma_{ANIMAL}}{(\sigma_{ANIMAL} + \sigma_{MOTHER} + \sigma_{BYEAR} + \sigma_{e})} 
+\end{align*}
+">
 
 ``` r
 #Compute ICC for the group variable "ANIMAL", this is heritability
