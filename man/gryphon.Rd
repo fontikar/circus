@@ -22,7 +22,7 @@ gryphon
 This dataset was simulated for the paper: "An ecologist's guide to the animal model" by Wilson et. al 2010. Phenotypic traits were simulated over an arbitary pedigree structure using the program 'Pedantics' (Morrissey et al. 2007) to illustrate the uses of the 'animal model'. This dataset includes six variables measured from a cohort of gryphons (n = 1084). Variables include: The ID of each gryphon, the ID of the gryphon's mother, year of birth, sex, birth weight and tarsus length
 }
 \references{
-Wilson, A. J., Reale, D., Clements, M. N., Morrissey, M. M., Postma, E., Walling, C. A., Kruuk, L. E. B & Nussey, D. H. (2010). An ecologist???s guide to the animal model. Journal of Animal Ecology, 79(1), 13-26.
+Wilson, A. J., Reale, D., Clements, M. N., Morrissey, M. M., Postma, E., Walling, C. A., Kruuk, L. E. B & Nussey, D. H. (2010). An ecologist's guide to the animal model. Journal of Animal Ecology, 79(1), 13-26.
 
 Morrissey, M. B., Wilson, A. J., Pemberton, J. M., & Ferguson, M. M. (2007). A framework for power and sensitivity analyses for quantitative genetic studies of natural populations, and case studies in Soay sheep (Ovis aries). Journal of Evolutionary Biology, 20(6), 2309-2321.
 }
