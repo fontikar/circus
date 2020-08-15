@@ -18,7 +18,7 @@ strongly units of the same group resemble each other (McGraw & Wong
 <img src=
 "https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AICC+%26%3D+%5Cfrac%7B%5Csigma_G%7D%7B%28%5Csigma_G+%2B+%5Csigma_e%29%7D+%0A%5Cend%7Balign%2A%7D%0A" 
 alt="\begin{align*}
-ICC &= \frac{\sigma_G}{(\sigma_G + \sigma_e)} 
+\Large ICC &= \frac{\sigma_G}{(\sigma_G + \sigma_e)} 
 \end{align*}
 ">
 
@@ -93,7 +93,7 @@ birthweight attributed to genetic differences among each individual
 <img src=
 "https://render.githubusercontent.com/render/math?math=%5Ctextstyle+%5Cbegin%7Balign%2A%7D%0Ah%5E2+%26%3D+%5Cfrac%7B%5Csigma_%7BANIMAL%7D%7D%7B%28%5Csigma_%7BANIMAL%7D+%2B+%5Csigma_%7BMOTHER%7D+%2B+%5Csigma_%7BBYEAR%7D+%2B+%5Csigma_%7Be%7D%29%7D+%0A%5Cend%7Balign%2A%7D%0A" 
 alt="\begin{align*}
-h^2 &= \frac{\sigma_{ANIMAL}}{(\sigma_{ANIMAL} + \sigma_{MOTHER} + \sigma_{BYEAR} + \sigma_{e})} 
+\Large h^2 &= \frac{\sigma_{ANIMAL}}{(\sigma_{ANIMAL} + \sigma_{MOTHER} + \sigma_{BYEAR} + \sigma_{e})} 
 \end{align*}
 ">
 
@@ -112,9 +112,9 @@ McGraw, K. O., & Wong, S. P. (1996). Forming inferences about some
 intraclass correlation coefficients. Psychological methods, 1(1), 30.
 
 Wilson, A. J., Reale, D., Clements, M. N., Morrissey, M. M., Postma, E.,
-Walling, C. A., Kruuk, L. E. B & Nussey, D. H. (2010). An ecologist???s
+Walling, C. A., Kruuk, L. E. B & Nussey, D. H. (2010). An ecologist's
 guide to the animal model. Journal of Animal Ecology, 79(1), 13-26.
 
 Nakagawa, S., & Schielzeth, H. (2010). Repeatability for Gaussian and
-non???Gaussian data: a practical guide for biologists. Biological
+non-Gaussian data: a practical guide for biologists. Biological
 Reviews, 85(4), 935-956.
