@@ -14,6 +14,7 @@ When quantitative measurements are hierarchically organized at multiple
 levels, intra-class correlations (ICC) can be used to express how
 strongly units of the same group resemble each other (McGraw & Wong
 1996). ICC takes the form:
+
 <img src=
 "https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0AICC+%26%3D+%5Cfrac%7B%5Csigma_G%7D%7B%28%5Csigma_G+%2B+%5Csigma_e%29%7D+%0A%5Cend%7Balign%2A%7D%0A" 
 alt="\begin{align*}
@@ -21,8 +22,18 @@ ICC &= \frac{\sigma_G}{(\sigma_G + \sigma_e)}
 \end{align*}
 ">
 
-where *??*<sub>*G*</sub> is the variance amoung units of a specific group
-and *??*<sub>*e*</sub> is the residual variance. One application of ICC
+where <img src=
+"https://render.githubusercontent.com/render/math?math=%5Ctextstyle+%5Cbegin%7Balign%2A%7D%0A%5Csigma_G%0A%5Cend%7Balign%2A%7D%0A" 
+alt="\begin{align*}
+\sigma_G
+\end{align*}
+"> is the variance amoung units of a specific group
+and <img src=
+"https://render.githubusercontent.com/render/math?math=%5Ctextstyle+%5Cbegin%7Balign%2A%7D%0A%5Csigma_G%0A%5Cend%7Balign%2A%7D%0A" 
+alt="\begin{align*}
+\sigma_e
+\end{align*}
+"> is the residual variance. One application of ICC
 in biological literature is the calculation of heritability in
 quantitive genetics studies from ???animal models??? (Wilson et al.??2010) or
 repeatability of behavioural traits in animal personality studies
