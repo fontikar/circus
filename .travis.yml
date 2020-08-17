@@ -7,11 +7,12 @@ addons:
     packages:
       - libmagick++-dev
       - libnode-dev
-r_binary_packages:
+r_packages:
   - brms
   - covr
   - devtools
   - MCMCglmm
+cache: packages  # cache install of dependent packages
 after_success:
   - Rscript -e 'library(covr); codecov()'
   - bash <(curl -s https://codecov.io/bash)

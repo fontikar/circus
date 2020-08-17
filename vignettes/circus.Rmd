@@ -19,7 +19,6 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-#devtools::install_github("fontikar/circus")
 library(circus)
 
 model <- testthis::read_testdata(infile = "model")
@@ -40,8 +39,8 @@ Currently `circus` supports one function `get_icc()` to compute ICC from random 
 `circus` is not currently on CRAN. For testing purposes only it can be downloaded through devtools as follows:
 
 ```{r Installation, eval = FALSE}
-install.packages("devtools")
-devtool::install_github("fontikar/circus")
+install.packages("remotes")
+remotes::install_github("fontikar/circus")
 
 library(circus)
 ```
@@ -85,4 +84,3 @@ McGraw, K. O., & Wong, S. P. (1996). Forming inferences about some intraclass co
 Wilson, A. J., Reale, D., Clements, M. N., Morrissey, M. M., Postma, E., Walling, C. A., Kruuk, L. E. B & Nussey, D. H. (2010). An ecologist's guide to the animal model. Journal of Animal Ecology, 79(1), 13-26.
 
 Nakagawa, S., & Schielzeth, H. (2010). Repeatability for Gaussian and non???Gaussian data: a practical guide for biologists. Biological Reviews, 85(4), 935-956.
-
