@@ -49,8 +49,8 @@ Installation
 downloaded through devtools as follows:
 
 ``` r
-install.packages("devtools")
-devtool::install_github("fontikar/circus")
+install.packages("remotes")
+remotes::install_github("fontikar/circus", build_vignettes=T)
 
 library(circus)
 ```

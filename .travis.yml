@@ -2,11 +2,16 @@ language: R
 dist: focal
 os: linux
 warnings_are_errors: true
-apt_packages:
-  - libmagick++-dev
-  - libnode-dev
-r_packages:
+addons:
+  apt:
+    packages:
+      - libmagick++-dev
+      - libnode-dev
+r_binary_packages:
+  - brms
   - covr
+  - devtools
+  - MCMCglmm
 after_success:
   - Rscript -e 'library(covr); codecov()'
   - bash <(curl -s https://codecov.io/bash)
