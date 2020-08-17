@@ -5,7 +5,6 @@ warnings_are_errors: true
 addons:
   apt:
     packages:
-      - libmagick++-dev
       - libnode-dev
 r_packages:
   - brms
