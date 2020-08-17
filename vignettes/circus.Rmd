@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 
-devtools::install_github("fontikar/circus")
+#devtools::install_github("fontikar/circus")
 library(circus)
 
 model <- testthis::read_testdata(infile = "model")

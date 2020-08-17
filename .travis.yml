@@ -1,5 +1,6 @@
 language: R
-sudo: required
+dist: focal
+os: linux
 warnings_are_errors: true
 apt_packages:
   - libmagick++-dev
