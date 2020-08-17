@@ -3,6 +3,7 @@ sudo: required
 warnings_are_errors: true
 apt_packages:
   - libmagick++-dev
+  - libnode-dev
 r_packages:
   - covr
 after_success:
